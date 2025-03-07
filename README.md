@@ -16,8 +16,7 @@ Anschließend wird das Python-Skript mit folgendem Befehl angelegt:
 cat > portscan.py
 ```
 Nun kann der Code direkt im Terminal geschrieben oder eine bevorzugte Entwicklungsumgebung genutzt werden.
-<br>![Screenshot vom Desktop](https://imgur.com/JPRVzTA)
-
+<img src="https://i.imgur.com/JPRVzTA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 ## **3. Portscanner-Code**  
 Der folgende Code stellt die Funktionsweise des Portscanners dar:
 ```python
@@ -69,6 +68,6 @@ Der Scanner nutzt die **`socket`**-Bibliothek, um eine Verbindung zu bestimmten 
   Falls eine Verbindung zustande kommt, liest diese Funktion die ersten empfangenen Daten aus (Banner-Grabbing). Dies ist nützlich, um z. B. die Software-Version eines laufenden Dienstes zu identifizieren.
 
 ## **5. Anwendungsbeispiel**  
-![Beispiel Scan](https://imgur.com/JPRVzTA) <br>
+<img src="https://i.imgur.com/KnM0SKu.png" height="50%" width="50%" alt="Anwendungsbeispiel"/>
 Im Beispiel wird die IP-Adresse der Webseite **„Heideldesign.de“** ermittelt und anschließend ein Portscan durchgeführt.  
 Dieser Scan kann dabei helfen, potenzielle Schwachstellen zu identifizieren.
